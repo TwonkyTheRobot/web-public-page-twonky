@@ -1,6 +1,9 @@
 <template>
   <div v-editable="blok">
-  
+    <Head>
+      <Title>{{blok?.meta?.title}}</Title>
+      <meta name="description" :content="blok?.meta?.description" />
+    </Head>
     <component
       :is="blok.component"
       v-for="blok in blok.body"

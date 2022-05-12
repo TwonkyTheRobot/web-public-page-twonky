@@ -6,7 +6,7 @@
           class="text-lime-400 transition-colors duration-700 text-xl font-black uppercase text-shadow-sharp hover:text-brown"
           to="/"
         >
-          <span>Miljöfascisterna</span>
+          <span>Hej hej!</span>
         </NuxtLink>
 
         <div class="flex-grow"></div>

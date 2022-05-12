@@ -4,7 +4,7 @@
       <nav>
         <ul class="flex gap-4 font-display">
           <li>
-            <nuxt-link class="text-black font-semibold hover:underline" to="/articles"
+            <nuxt-link class="text-black font-semibold hover:underline" to="/random-stuff"
               >Artiklar</nuxt-link
             >
           </li>
