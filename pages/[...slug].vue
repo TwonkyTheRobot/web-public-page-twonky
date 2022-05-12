@@ -17,7 +17,7 @@ const route = useRoute();
 
 // fetch the story before rendering the page ('usally at the server')
 const slug = route.params.slug;
-const path = `cdn/stories/${Array.isArray(slug)? slug.join('/'): slug}`
+const path = `cdn/stories/${Array.isArray(slug)? slug.join('/'): ((!slug || slug == '') ? 'home' : slug)}`
 console.log('PATHMATCH', path);
 // fetch the story before rendering the page ('usally at the server')
 const storyblokApi = useStoryblokApi();
